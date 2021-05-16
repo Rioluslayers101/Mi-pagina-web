@@ -35,7 +35,7 @@
 	.header{	
 		background: rgb(55, 59, 68);  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, hsla(217, 89%, 61%, 0.671), hsla(222, 11%, 24%, 0.637)), url(../how-hollow-knights-community-crafted-gibberish-into-a-real-language-1567781461548.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: linear-gradient(to right, hsla(217, 89%, 61%, 0.671), hsla(222, 11%, 24%, 0.637)), url(how-hollow-knights-community-crafted-gibberish-into-a-real-language-1567781461548.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		
 	background-size: cover;
 	background-attachment: fixed ;

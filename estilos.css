@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+
+	.contenedor{
+		padding: 60px 0;
+		width: 90%;
+		max-width: 1000px;
+		margin:auto;
+		overflow: hidden;
+	}
+	.port{
+		color: #fff;
+		display: flex;
+		width: 100%;
+		height: 200px;
+		align-items: center;
+		justify-content: center;
+		font-size: 80px;
+
+	}
+	.titulo{
+		color: #22A39F;
+		font-size: 54px;
+		text-align: center;
+		margin-bottom: 60px;
+
+	}
+
+	/*Estilos para el encabezado*/
+	.header{	
+		background: rgb(55, 59, 68);  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, hsla(217, 89%, 61%, 0.671), hsla(222, 11%, 24%, 0.637)), url(../how-hollow-knights-community-crafted-gibberish-into-a-real-language-1567781461548.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+	background-size: cover;
+	background-attachment: fixed ;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	}
+	.wave{
+		position: absolute;
+		bottom: 200px;
+		width: 100%;
+	}
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu{
+     position: fixed;
+	}
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 30px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 30px;
+		margin-left: 30px;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+	/*About me*/
+ .contenedor-sobre-mi{
+ display: flex;
+ justify-content: space-evenly;
+ }
+ .img-de-mi{
+	 	width: 48%;
+ }
+ .sobre-mi .contenido-textos{
+ width: 48%;
+ }
+ .contenido-textos h3{
+	 margin-bottom: 15px;
+ }
+ .contenido-textos h3 span{
+	 background: #4d0686;
+	 color: #fff;
+	 border-radius: 50%;
+	 display: inline-block;
+	 text-align: center;
+	 width: 30%;
+	 height: 30%;
+	 padding: 2px;
+	 box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+	 margin-right: 5px;
+ }
+ .contenido-textos p{
+	 padding: 0px 0px 30px 15px;
+	 font-weight: 300;
+	 text-align: justify;
+ }
+	/*Fin de bout me*/
+
+	/*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: fixed;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background-image: url(./Izuku\ Los\ ojos\ de\ dios\ [Hiatus].jfif);
+		height: 100vh;
+		background-repeat: no-repeat;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	/*Fin de Menù lateral*/
+
+	
+	
+  

@@ -44,9 +44,27 @@
 	height: 600px;
 	position: relative;
 	}
+	.fondo{
+		background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(275, 66%, 13%, 0.678), hsla(350, 81%, 42%, 0.623)), url(./maxresdefault.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative;	
+	}
+	.Experiencias{
+		background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(20, 89%, 58%, 0.712), hsla(44, 98%, 59%, 0.623)), url(./Binding-Isaac-e1618072909393.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+position: relative;	
+	}
 	.wave{
 		position: absolute;
-		bottom: 200px;
+		bottom: 229px;
 		width: 100%;
 	}
 	.container{

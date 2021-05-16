@@ -24,11 +24,10 @@
 
 	}
 	.titulo{
-		color: #22A39F;
+		color: #096777;
 		font-size: 54px;
 		text-align: center;
 		margin-bottom: 60px;
-
 	}
 
 	/*Estilos para el encabezado*/
@@ -123,6 +122,48 @@ position: relative;
 	 font-weight: 300;
 	 text-align: justify;
  }
+ .text h3{
+   margin-bottom: 20px;
+   margin-top: 20px;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+   color: chartreuse;
+   font-size: 30px;
+ }
+ .text h4{
+	 display: block;
+	 margin-block-start: 1.33em;
+	 margin-block-end: 1.33em;
+	 margin-inline-start: 0px;
+	 margin-inline-end: 0px;
+	 font-weight: bold;
+	 font-size: 20px;
+ }
+ .text strong{
+	 font-size: 20px;
+	 margin-right: 10px;
+ }
+ .text p{
+	 text-align: justify;
+	 margin-top: 30px;
+ }
+ footer .titulo-final{
+	 text-align: center;
+	 margin-top: 10px;
+ }
+  footer .content-foo{
+	  justify-content: space-between;
+      margin-bottom: 5px;
+	  display: flex;
+	  flex-direction:column;
+	  flex-wrap: wrap;
+	  align-items: center;
+ }
+ 
 	/*Fin de bout me*/
 
 	/*Menù lateral*/
@@ -172,7 +213,7 @@ position: relative;
 		background: #1f1f1f;
 	}
 	.cont-menu label{
-		position: absolute;
+		position: fixed;
 		right: 5px;
 		top: 10px;
 		color: #fff;
